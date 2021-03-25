@@ -36,6 +36,8 @@ var spellRestoration = sr.ToSpellRestoration(saveData);
 saveData = sr.FromSpellRestoration<SaveData>(spellRestoration);
 ```
 
+実際に使用している例は[InputManager.cs](https://github.com/Kazuhito00/Unity-SpellRestoration/blob/main/SpellRestoration/Assets/Scripts/InputManager.cs)を参照ください。
+
 # Author
 高橋かずひと(https://twitter.com/KzhtTkhs)
 
