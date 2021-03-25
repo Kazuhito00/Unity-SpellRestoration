@@ -27,12 +27,12 @@ public class InputManager : MonoBehaviour
     private InputField inputField05;
     private InputField inputField06;
 
-	private Button button01;
-	private Button button02;
+    private Button button01;
+    private Button button02;
     
     private InputField inputField00;
     
-	private Button resetButton;
+    private Button resetButton;
 
     private SpellRestoration sr;
 
@@ -48,19 +48,19 @@ public class InputManager : MonoBehaviour
         this.inputField06 = GameObject.Find("InputField06").GetComponent<InputField>();
         
         this.button01 = GameObject.Find("Button01").GetComponent<Button>();
-		this.button01.onClick.AddListener(OnClickButton01);
+        this.button01.onClick.AddListener(OnClickButton01);
         this.button02 = GameObject.Find("Button02").GetComponent<Button>();
-		this.button02.onClick.AddListener(OnClickButton02);
+        this.button02.onClick.AddListener(OnClickButton02);
 
         this.inputField00 = GameObject.Find("InputField00").GetComponent<InputField>();
         
         this.resetButton = GameObject.Find("ResetButton").GetComponent<Button>();
-		this.resetButton.onClick.AddListener(OnClickResetButton);
+        this.resetButton.onClick.AddListener(OnClickResetButton);
 
         this.sr = new SpellRestoration();
     }
     
-	public void OnClickButton01()
+    public void OnClickButton01()
     {
         this.saveData.a = this.inputField01.text;
         this.saveData.b = this.inputField02.text;
@@ -71,9 +71,9 @@ public class InputManager : MonoBehaviour
 
         var spellRestoration = this.sr.ToSpellRestoration(this.saveData);
         this.inputField00.text = spellRestoration;
-	}
+    }
     
-	public void OnClickButton02()
+    public void OnClickButton02()
     {
         var spellRestoration = this.inputField00.text;
 
@@ -89,9 +89,9 @@ public class InputManager : MonoBehaviour
         } else {
             Debug.Log("FromSpellRestoration() Error");
         }
-	}
+    }
     
-	public void OnClickResetButton()
+    public void OnClickResetButton()
     {
         this.inputField01.text = "";
         this.inputField02.text = "";
@@ -101,5 +101,5 @@ public class InputManager : MonoBehaviour
         this.inputField06.text = "";
 
         this.inputField00.text = "";
-	}
+    }
 }
