@@ -12,13 +12,13 @@ Unityで「ふっかつのじゅもん」的なことをするクラスです。
 
 # Memo
 使用しやすさを優先して以下のような変換処理にしています。<br>
-構造体の変数名を長くすると生成される文字列も長くなります。短くしたい場合は変数名を短くしてください。<br>
+クラス変数名を長くすると生成される文字列も長くなります。短くしたい場合は変数名を短くしてください。<br>
 <img src="https://user-images.githubusercontent.com/37477845/112489045-6bb28c00-8dc1-11eb-8653-8f569d77e804.png" width="25%">
 
 # Example
 使用例は以下の通りです。<br>
 ToSpellRestoration()で「ふっかつのじゅもん」を生成し、<br>
-FromSpellRestoration()で「ふっかつのじゅもん」から構造体に戻します。<br>
+FromSpellRestoration()で「ふっかつのじゅもん」からデータを復元します。<br>
 ```
 [System.Serializable]
 public class SaveData
