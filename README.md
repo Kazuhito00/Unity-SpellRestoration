@@ -4,8 +4,8 @@ Unityで「ふっかつのじゅもん」的なことをするクラスです。
 
 # Demo
 動作確認用ページは以下。<br>
-WebGLビルドでは「[InputField等でコピー＆ペーストが出来ない](https://helpdesk.unity3d.co.jp/hc/ja/articles/220207047-WebGL%E3%81%A7%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B-%E3%82%B3%E3%83%94%E3%83%BC-%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)」と言う事象があります(対応事例はToDo参照)<br>
-[https://kazuhito00.github.io/Unity-SpellRestoration/WebGL-Build](https://kazuhito00.github.io/Unity-SpellRestoration/WebGL-Build)
+[https://kazuhito00.github.io/Unity-SpellRestoration/WebGL-Build](https://kazuhito00.github.io/Unity-SpellRestoration/WebGL-Build)<br><br>
+※WebGLビルドでは「[InputField等でコピー＆ペーストが出来ない](https://helpdesk.unity3d.co.jp/hc/ja/articles/220207047-WebGL%E3%81%A7%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B-%E3%82%B3%E3%83%94%E3%83%BC-%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)」と言う事象があります（対応事例はToDo参照）
 
 # Requirement (Unity)
 * Unity 2021.1.0b6 or later
