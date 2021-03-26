@@ -33,7 +33,10 @@ public class SaveData
 saveData = new SaveData();
 sr = new SpellRestoration();
 
+// 構造体から「ふっかつのじゅもん」に変換
 var spellRestoration = sr.ToSpellRestoration(saveData);
+
+// 「ふっかつのじゅもん」から構造体に変換
 saveData = sr.FromSpellRestoration<SaveData>(spellRestoration);
 ```
 
