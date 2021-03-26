@@ -40,8 +40,7 @@ saveData = sr.FromSpellRestoration<SaveData>(spellRestoration);
 実際に使用している例は[InputManager.cs](https://github.com/Kazuhito00/Unity-SpellRestoration/blob/main/SpellRestoration/Assets/Scripts/InputManager.cs)を参照ください。
 
 # ToDo
- - [ ] ~~[WebGLでの日本語入力・コピー＆ペーストについて](https://helpdesk.unity3d.co.jp/hc/ja/articles/220207047-WebGL%E3%81%A7%E3%81%AE%E6%97%A5%E6%9C%AC%E8%AA%9E%E5%85%A5%E5%8A%9B-%E3%82%B3%E3%83%94%E3%83%BC-%E3%83%9A%E3%83%BC%E3%82%B9%E3%83%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)~~
- - [ ] ~~[【Unity】WebGL の InputField でコピー・ペーストできる「WebGLInput」紹介](https://baba-s.hatenablog.com/entry/2020/01/29/090000)~~
+ - [ ] ~~[WebGLでの日本語入力・コピー＆ペーストについて](https://helpdesk.unity3d.co.jp/hc/ja/articles/220207047-
  - [ ] [WebGLのUnity InputField 日本語入力について](https://shirokurohitsuji.studio/2019/04/11/webgl-unity-inputfield/)
 
 # Author
